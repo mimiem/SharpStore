@@ -1,0 +1,10 @@
+C:\Users\User1\Desktop\html\SharpStore-Skeleton\SharpStore\bin\Debug\SharpStore.exe.config
+C:\Users\User1\Desktop\html\SharpStore-Skeleton\SharpStore\bin\Debug\Resources\Pages\404.html
+C:\Users\User1\Desktop\html\SharpStore-Skeleton\SharpStore\bin\Debug\Resources\Pages\500.html
+C:\Users\User1\Desktop\html\SharpStore-Skeleton\SharpStore\bin\Debug\SharpStore.exe
+C:\Users\User1\Desktop\html\SharpStore-Skeleton\SharpStore\bin\Debug\SharpStore.pdb
+C:\Users\User1\Desktop\html\SharpStore-Skeleton\SharpStore\bin\Debug\SimpleHttpServer.dll
+C:\Users\User1\Desktop\html\SharpStore-Skeleton\SharpStore\bin\Debug\SimpleHttpServer.pdb
+C:\Users\User1\Desktop\html\SharpStore-Skeleton\SharpStore\obj\Debug\SharpStore.csprojResolveAssemblyReference.cache
+C:\Users\User1\Desktop\html\SharpStore-Skeleton\SharpStore\obj\Debug\SharpStore.exe
+C:\Users\User1\Desktop\html\SharpStore-Skeleton\SharpStore\obj\Debug\SharpStore.pdb

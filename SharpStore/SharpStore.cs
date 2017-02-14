@@ -69,6 +69,25 @@
                 },
                 new Route()
                 {
+                    Name = "cow",
+                    Method = SimpleHttpServer.Enums.RequestMethod.GET,
+                    UrlRegex = @"^/images/.+\.png$",
+                    Callable = (request) =>
+                    {
+                        var nameOfFile=request.Url.Substring(request.Url.LastIndexOf('/') + 1);
+                        var response = new HttpResponse()
+                        {
+                            StatusCode = SimpleHttpServer.Enums.ResponseStatusCode.Ok,
+                            Content = File.ReadAllBytes($"../../content/images/{nameOfFile}")
+                        };
+                        response.Header.ContentType="image/png";
+                        response.Header.ContentLength=response.Content.Length.ToString();
+
+                        return response;
+                    }
+                },
+                new Route()
+                {
                     Name = "Carousel CSS",
                     Method = SimpleHttpServer.Enums.RequestMethod.GET,
                     UrlRegex = "^/content/css/carousel.css$",
